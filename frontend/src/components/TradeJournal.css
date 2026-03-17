@@ -1,0 +1,44 @@
+.trade-journal {
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.journal-controls {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.trades-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.no-trades {
+  text-align: center;
+  padding: 3rem;
+  background: #1e293b;
+  border-radius: 0.5rem;
+  border: 2px dashed #475569;
+  color: #94a3b8;
+}
+
+.no-trades p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .trade-journal {
+    padding: 1rem;
+  }
+
+  .journal-controls {
+    margin-bottom: 1rem;
+  }
+
+  .trades-container {
+    gap: 1rem;
+  }
+}
